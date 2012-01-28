@@ -1,12 +1,33 @@
-JAPPIX.ORG
+##########################
+### ### JAPPIX.ORG ### ###
+##########################
 
 Jappixorg is the webpage from jappix.org website. It includes all the code available on jappix.org. 
 
 To see other jappix projects -- checkout http://github.com/jappix/ !
 
-This Website is published under the CC-By SA license. check http://creativecommons.org/licenses/by-sa/3.0/ for more information about what is allowed on this work.
-
-Versionning : 
+### VERSIONNING ### 
 This is the version 1 of jappixorg.
 
 The version are the decimals of the Golden Ratio:  φ=(1+√5) /2 . Actually, we want to approach perfection. checkout http://en.wikipedia.org/wiki/Golden_ratio for more information on the Golden Ratio.
+
+### BUG TRACKER ###
+
+Have a bug? Please create an issue here on GitHub!
+
+https://github.com/jappix/jappixorg/issues
+
+### AUTHORS ###
+This is made by the Jappix founders:
+- Julien Barrier
+  * http://julienbarrier.fr
+- Vanaryon
+  * https://me.jappix.com/vanaryon@jappix.com
+- Cyril Glapa
+- Neustradamus
+
+(please don’t contact us for problems on the website. Just report a bug)
+
+### LICENSE ###
+
+This Website is published under the CC-By SA license. check http://creativecommons.org/licenses/by-sa/3.0/ for more information about what is allowed on this work.
