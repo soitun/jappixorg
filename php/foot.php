@@ -1,0 +1,1 @@
+<p><a href=https://www.jappix.com/>Try Jappix free !</a> — <a href=http://jappix.org/mini/>Jappix Mini</a> — <a href=http://jappix.org/who>About us</a> — <a href="http://developer.jappix.org">Developers</a> — <a href="https://twitter.com/jappixorg">Twitter</a></p>

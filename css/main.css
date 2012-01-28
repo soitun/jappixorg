@@ -1,0 +1,380 @@
+/*** style de Jappix.org ***/
+
+/** basique **/
+html{
+width: 1000px;
+display: block;
+margin-top: 0;
+padding-top: 0;
+margin-left: auto;
+margin-right: auto;
+background: white;
+}
+
+body {
+margin: 0;
+padding: 10px;
+font: normal 12.8px Arial, Helvetica, Verdana, sans-serif;
+line-height : 0.9em;
+}
+
+/** en haut **/
+
+header {
+margin-top: 5px;
+margin-bottom: 0;
+margin-right: 5px;;
+margin-left: 5px;;
+font-size: 14px;
+z-index: 1000;
+}
+
+header a img {
+display: block;
+border: none;
+display; block;
+margin: auto;
+}
+
+header p.right {
+display: block;
+color: #8800aa;
+position : absolute;
+top: 0;
+z-index: 1000;
+margin-top: 0;
+}
+/** en bas **/
+
+footer {
+display: block;
+width: 100%;
+background-color: white;
+height: 30px;
+margin-top: 50px;
+padding-top: 10px;
+}
+
+footer p {
+display: block;
+margin: auto;
+text-align: right;
+font-size: 14px;
+color: #3771c8;
+}
+
+footer a {
+color: #3771c8;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+/** le texte **/
+
+section {
+padding: 0;
+margin: 0;
+background: transparent;
+color: black;
+z-index: 0;
+}
+
+article {
+max-width: 400px;
+z-index: 100;
+}
+
+article.width {
+max-width: 100%;
+}
+/** autres **/
+
+video {
+display: block;
+margin: auto;
+max-width: 500px;
+border: 8px solid white;
+}
+
+legend {
+display: block;
+margin: auto;
+max-width: 300px;
+font-size: small;
+color: rgb(87,101,120);
+text-align: center;
+}
+
+.visuel {
+position: absolute;
+margin-left: 450px;
+float: right;
+top: 10px;
+z-index: -10;
+background: url('/img/images/clouds.png') no-repeat;
+height: 399px;
+width: 509px;
+}
+
+section.description {
+margin-top: 30px;
+width: 935px;
+display: block;
+margin: auto;
+}
+
+section.description details.gauche {
+display: block;
+width: 300px;
+min-height: 100px;
+margin: 0;
+float: right;
+padding: 5px;
+}
+section.description details.milieu {
+display: block;
+width: 300px;
+min-height: 100px;
+float: right;
+padding: 5px;
+}
+section.description details.droite {
+display: block;
+width: 300px;
+min-height: 100px;
+float: right;
+padding: 5px;
+}
+
+section.description details img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+section.description details p {
+line-height: 1em;
+margin-bottom: 5px;
+}
+
+a.get {
+float: left;
+line-height: 1em;
+height: 90px;
+max-width: 400px;
+background: #aade87;
+background: -moz-linear-gradient(top,#aade87,#8dd35f);
+background: -webkit-gradient(linear, left top, left bottom, from(#aade87), to(#8dd35f));
+border: 2px solid #5aa02c;
+padding-right: 20px;
+text-decoration: none;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+a.get:hover,
+a.get:focus {
+border-color: #295a08;
+text-decoration: none;
+}
+
+a.get:active {
+background: #8dd35f;
+background: -moz-linear-gradient(top,#8dd35f,#aade87);
+background: -webkit-gradient(linear, left top, left bottom, from(#8dd35f), to(#aade87));
+text-decoration: none;
+}
+
+a.get .first{
+display: block;
+font-size: 36px;
+margin-left: 80px;
+margin-top: 25px;
+color: white;
+}
+
+a.get .second{
+display: block;
+margin-top:10px;
+margin-left: 80px;
+color: white;
+}
+
+a.get img{
+display: block;
+float: left;
+margin-top: 15px;
+margin-left: 10px;
+}
+
+/** styles d'image **/
+img {
+	border: 0 none;
+}
+
+/** styles de texte **/
+
+h1,h2,h4,h5,h6 {
+color: rgb(24,28,33);
+}
+
+h1 {
+font-size: 3em;
+font-weight: 200;
+line-height: 0.9em;
+}
+
+h2 {
+font-size: 1.7em;
+margin-left: 0;
+font-weight: 100;
+}
+
+.h2 {
+font-size: 1.7em;
+margin-left: 0;
+font-weight: 100;
+color: rgb(24,28,33);
+text-decoration: none;
+}
+
+.h2:hover {
+text-decoration: none;
+}
+
+h3 {
+font-size: 1.5em;
+margin-left: 0;
+font-weight: 100;
+color: #d40055;
+}
+
+p {
+text-indent: 5px;
+color: rgb(36,53,71);
+margin-bottom: 0;
+margin-top: 5px;
+}
+
+a {
+text-decoration: none;
+color: #8800aa;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+q {
+font-size: small;
+position: relative;
+left: 50px;
+color: gray;
+}
+
+q:before {
+content: none;
+}
+
+q:after {
+content: none;
+}
+
+q a {
+color: gray;
+text-decoration: none;
+}
+
+/** positions **/
+
+.center {
+display: block;
+margin: auto;
+}
+
+.right {
+float: right;
+}
+
+.left {
+float: left;
+}
+
+/** spécifique **/
+
+/* dons */
+.input-xlarge,input.xlarge,textarea.xlarge,select.xlarge{width:270px;}
+input.span2,textarea.span2,select.span2{display:inline-block;float:none;width:90px;margin-left:0;}
+.label{padding:1px 3px 2px;background-color:#bfbfbf;font-size:9.75px;font-weight:bold;color:#ffffff;text-transform:uppercase;white-space:nowrap;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+
+.input{margin-left:150px; position: relative; bottom: 20px;}
+input[type=checkbox],input[type=radio]{cursor:pointer;}
+input,textarea,select,.uneditable-input{display:inline-block;width:210px;height:18px;padding:4px;font-size:13px;line-height:18px;color:#808080;border:1px solid #ccc;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+input[type=checkbox],input[type=radio]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;border:none;}
+input[type=file]{background-color:#ffffff;padding:initial;border:initial;line-height:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+input[type=button],input[type=reset],input[type=submit]{width:auto;height:auto;}
+select,input[type=file]{height:27px;line-height:27px;*margin-top:4px;}
+select[multiple]{height:inherit;}
+/* autres */
+
+.coming {
+	font-size: x-small;
+	background: purple;
+	color: white;
+	padding: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+code {
+	font-family: monospace;
+	font-weight: 500;
+	color: orange;
+}
+
+.people {
+	width: 281px;
+	font-size: 0.8em;
+	margin: 12px 20px 10px 10px;
+	padding: 12px 14px;
+	float: left;
+	color: #333000;
+}
+
+
+.julien {
+	background: url('/img/contact/julien.png') no-repeat;
+	height: 131px;
+}
+
+.valerian {
+	background: url('/img/contact/valerian.png') no-repeat;
+	height: 127px;
+}
+
+.people a:hover img.avatar,
+.people a:focus img.avatar {
+	box-shadow: 0 0 20px #F1A5F1;
+	-moz-box-shadow: 0 0 20px #F1A5F1;
+	-webkit-box-shadow: 0 0 20px #F1A5F1;
+}
+
+.people div.infos {
+	width: 180px;
+	margin-left: 116px;
+	margin-top: 20px;
+	float: left;
+}
+
+.contact {
+margin: 3px;
+}
+
+table a {
+	color: #3771c8;
+}
